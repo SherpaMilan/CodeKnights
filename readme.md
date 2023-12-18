@@ -44,3 +44,15 @@ It needs to be decentralised and can handle both variety and large amounts of da
 
 #### Day 1 | 18th Dec
 
+Started research on how to cater for the metrics in our solution. To satisfy the decentrialised nature of the solution, we opted for a Proof-of-Work consensus blockchain mechanism to validify data from certain datapoints. 
+
+This required us to create classes to cater for this architecture so Datablock, Blockchain and Node was a start. 
+
+> ***Datablock*** would be responsible for containing the data and calculating the neccessary attributes to ensure validity and freshness of the data, such as the hash, encrypted value, and nonce values.
+>
+
+> ***Blockchain*** would be responsible for managing the storage of these datablocks, and for mining them according to our chosen mechanism. This is to ensure validity of the added blocks to the chain.
+>
+
+> ***Node*** would be responsible for acting for the network to conduct concurrent validations of the blockchain to ensure mutual agreement across all nodes.
+>
