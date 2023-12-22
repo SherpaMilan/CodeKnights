@@ -56,3 +56,7 @@ This required us to create classes to cater for this architecture so Datablock, 
 
 > ***Node*** would be responsible for acting for the network to conduct concurrent validations of the blockchain to ensure mutual agreement across all nodes.
 >
+
+#### Day 2 | 19th of Dec
+In attempts to innovate the consensus based verification, we delegated research towards various consensus mechanisms such as Proof-of-Work or Proof-of-Stake.
+
